@@ -1,10 +1,10 @@
+import HeroName from "@/components/ui/HeroName";
+
 export default function HeroSection() {
   return (
     <section className="hero">
       <div className="container">
-        <h1 className="hero-name">
-          Imdad<span>.</span>
-        </h1>
+        <HeroName />
         <p className="hero-tagline">
           Building at the intersection of biomedical science, software, and
           athletic performance.

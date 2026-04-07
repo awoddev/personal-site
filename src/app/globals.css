@@ -319,7 +319,37 @@ a {
   margin-bottom: 24px;
 }
 
-.hero-name span {
+.hero-name {
+  cursor: default;
+}
+
+.hero-by {
+  font-size: 0.22em;
+  font-weight: 500;
+  font-family: var(--font-sans);
+  color: var(--color-muted);
+  letter-spacing: 0.04em;
+  opacity: 0;
+  display: inline-block;
+  width: 0;
+  overflow: hidden;
+  transform: translateX(-4px);
+  transition: opacity 0.25s ease, transform 0.25s ease, width 0.25s ease;
+  vertical-align: baseline;
+}
+
+.hero-by.visible {
+  opacity: 1;
+  width: 2.2ch;
+  transform: translateX(0);
+}
+
+.hero-suffix {
+  display: inline-block;
+  min-width: 2ch;
+}
+
+.hero-dot {
   color: var(--color-accent);
 }
 
