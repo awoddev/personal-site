@@ -18,14 +18,9 @@ export default function ProjectsSection() {
               </div>
               <p className="project-description">
                 A mobile app that uses AI to generate personalized training
-                plans. Built for people who train seriously and want programming
-                that adapts to their goals, schedule, and recovery.
+                plans. Built for people who take their training seriously.
               </p>
               <ul className="project-details">
-                <li>
-                  Informed by real coaching experience across multiple training
-                  disciplines
-                </li>
                 <li>
                   Built with React Native and AI
                 </li>
@@ -40,14 +35,11 @@ export default function ProjectsSection() {
                 <span className="project-status">In development</span>
               </div>
               <p className="project-description">
-                An AI-powered tool that automates short-form video editing
-                &mdash; from raw footage to ready-to-post content, with no
-                manual editing required.
+                An AI-powered tool that automates short-form video editing.
               </p>
               <ul className="project-details">
                 <li>
-                  Built solo, end to end &mdash; backend, frontend, AI
-                  integration, video processing, deployment
+                  Built solo, end to end
                 </li>
               </ul>
             </div>

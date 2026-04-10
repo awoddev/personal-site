@@ -16,7 +16,7 @@ export default function AboutSection() {
                 I ship software products across the full stack. Right now
                 I&apos;m building two products &mdash; an{" "}
                 <strong>AI-powered fitness app</strong> and an{" "}
-                <strong>AI video pipeline</strong> &mdash; working across React
+                <strong>AI video tool</strong> &mdash; working across React
                 Native, Next.js, TypeScript, Python, and Supabase. I pick up
                 new languages, frameworks, and SDKs fast because I understand
                 the fundamentals underneath them.
