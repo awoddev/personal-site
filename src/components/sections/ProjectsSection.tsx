@@ -13,53 +13,38 @@ export default function ProjectsSection() {
           <ScrollReveal delay={100}>
             <div className="project-card">
               <div className="project-header">
-                <h3 className="project-name">Coach Potato</h3>
+                <h3 className="project-name">AI Fitness App</h3>
                 <span className="project-status">Launching soon</span>
               </div>
               <p className="project-description">
-                An AI-powered workout generator that writes complete training
-                plans from scratch. Unlike fitness apps that shuffle exercises
-                from a database, this uses generative AI to build every workout
-                uniquely &mdash; tailored to fitness level, equipment, time, and
-                goals.
+                A mobile app that uses AI to generate personalized training
+                plans. Built for people who train seriously and want programming
+                that adapts to their goals, schedule, and recovery.
               </p>
               <ul className="project-details">
                 <li>
-                  Each session follows a proper coaching structure: warm-up,
-                  preparation, main work, and conditioning
+                  Informed by real coaching experience across multiple training
+                  disciplines
                 </li>
                 <li>
-                  Simple mode for quick plans, advanced mode for full control
-                  over intensity, volume, and muscle focus
-                </li>
-                <li>
-                  Built with React Native (Expo), Supabase edge functions, and
-                  informed by years of multi-discipline coaching experience
+                  Built with React Native and AI
                 </li>
               </ul>
-              <a href="https://coach-potato-landing.vercel.app/" target="_blank" rel="noopener noreferrer" className="project-link">
-                View landing page &rarr;
-              </a>
             </div>
           </ScrollReveal>
 
           <ScrollReveal delay={200}>
             <div className="project-card">
               <div className="project-header">
-                <h3 className="project-name">ReelForge</h3>
+                <h3 className="project-name">AI Video Tool</h3>
                 <span className="project-status">In development</span>
               </div>
               <p className="project-description">
-                An AI-powered short-form video pipeline that turns raw workout
-                footage into ready-to-post Instagram Reels. Drop in a video, and
-                the system identifies best moments, scores them for quality,
-                syncs cuts to the beat, and writes the caption.
+                An AI-powered tool that automates short-form video editing
+                &mdash; from raw footage to ready-to-post content, with no
+                manual editing required.
               </p>
               <ul className="project-details">
-                <li>
-                  Outputs a 9:16 video, thumbnail, and caption with hashtags
-                  &mdash; no editing timeline, no templates, no manual work
-                </li>
                 <li>
                   Built solo, end to end &mdash; backend, frontend, AI
                   integration, video processing, deployment
